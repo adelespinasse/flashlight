@@ -35,6 +35,9 @@ else {
    // ElasticSearch server's host port
    exports.ES_PORT  = process.env.ES_PORT || '9200';
 
+   // ElasticSearch server's host protocol
+   exports.ES_PROTOCOL  = process.env.ES_PROTOCOL || 'https';
+
    // ElasticSearch username for http auth
    exports.ES_USER  = process.env.ES_USER || null;
 

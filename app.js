@@ -16,6 +16,7 @@ var esc = new ElasticSearch.Client({
     {
       host: conf.ES_HOST,
       port: conf.ES_PORT,
+      protocol: conf.ES_PROTOCOL,
       auth: (conf.ES_USER && conf.ES_PASS) ? conf.ES_USER + ':' + conf.ES_PASS : null
     }  
   ]
